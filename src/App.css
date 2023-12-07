@@ -1,3 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
 .map{
     width: 100%;
+}
+
+.globeImg{
+    display: flex;
+    justify-content: center;
+}
+
+.globe{
+    width: 35%;
+}
+
+.static-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.countryList {
+    background-color: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.country-info{
+    width: 30vw;
+    list-style: none;
+}
+
+.flagImage {
+    width: 25%;
+    height: 100%;
+}
+
+.flagNameTile {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.fetchButton{
+    display: flex;
+    justify-content: center;
+}
+
+.africa{
+    color: blue;
+}
+
+.americas{
+    color: green;
+}
+
+.asia{
+    color: red;
+}
+
+.europe{
+    color: yellow;
+}
+
+.oceania{
+    color: purple;
+}
+
+.none{
+    color: grey;
 }
