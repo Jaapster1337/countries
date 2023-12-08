@@ -54,6 +54,32 @@
     justify-content: center;
 }
 
+.flagAndName{
+    display: flex;
+    align-items: center;
+}
+
+.flagAndName{
+    margin: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    box-shadow: 10px 10px 40px -5px rgba(0,0,0,0.6);
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.card img{
+    width: 40%;
+}
+
+.card p{
+    padding: 5px;
+}
+
 .africa{
     color: blue;
 }
